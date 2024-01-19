@@ -1,0 +1,7 @@
+ortalamam = float(input("ortalamanızı giriniz: "))
+sinif_ortalamasi = float(input("sınıfın ortalamasını giriniz: "))
+sapma = float(input("standart sapmayı giriniz: "))
+
+T = ((ortalamam - sinif_ortalamasi)/sapma)*10+50
+
+print(f"T notunuz = {T:.5}")
